@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatnav"
+    app:startDestination="@id/chatHireFragment">
+
+    <fragment
+        android:id="@+id/chatHireFragment"
+        android:name="com.example.talent_manager.ChatHireFragment"
+        android:label="fragment_chat_hire"
+        tools:layout="@layout/fragment_chat_hire" />
+    <fragment
+        android:id="@+id/chatPlusFragment"
+        android:name="com.example.talent_manager.ChatPlusFragment"
+        android:label="fragment_chat_plus"
+        tools:layout="@layout/fragment_chat_plus" />
+</navigation>

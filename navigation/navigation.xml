@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/talentFragment">
+
+    <fragment
+        android:id="@+id/talentFragment"
+        android:name="com.example.talent_manager.TalentFragment"
+        android:label="@string/m1_icon_title"
+        tools:layout="@layout/fragment_talent" />
+        <action
+            android:id="@+id/action_talentFragment_to_talentFragment2"
+            app:destination="@id/talentFragment2" />
+    <fragment
+        android:id="@+id/evaluateFragment"
+        android:name="com.example.talent_manager.EvaluateFragment"
+        android:label="@string/m2_icon_title"
+        tools:layout="@layout/fragment_evaluate" />
+    <fragment
+        android:id="@+id/plusFragment"
+        android:name="com.example.talent_manager.PlusFragment"
+        android:label="@string/plus_icon_title"
+        tools:layout="@layout/fragment_plus" />
+    <action
+        android:id="@+id/action_plusFragment_to_talentFragment"
+        app:destination="@id/talentFragment" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.talent_manager.ChatFragment"
+        android:label="@string/m3_icon_title"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="com.example.talent_manager.MeFragment"
+        android:label="@string/m4_icon_title"
+        tools:layout="@layout/fragment_me" />
+    <fragment
+        android:id="@+id/talentFragment2"
+        android:name="com.example.talent_manager.TalentFragment2"
+        android:label="TalentFragment2" >
+        <action
+            android:id="@+id/action_talentFragment2_to_talentFragment"
+            app:destination="@id/talentFragment" />
+        <action
+            android:id="@+id/action_talentFragment2_to_talentFragment3"
+            app:destination="@id/talentFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/talentFragment3"
+        android:name="com.example.talent_manager.TalentFragment3"
+        android:label="TalentFragment3" >
+        <action
+            android:id="@+id/action_talentFragment3_to_talentFragment2"
+            app:destination="@id/talentFragment2" />
+        <action
+            android:id="@+id/action_talentFragment3_to_talentFragment"
+            app:destination="@id/talentFragment" />
+        <action
+            android:id="@+id/action_talentFragment3_to_talentFragment4"
+            app:destination="@id/talentFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/talentFragment4"
+        android:name="com.example.talent_manager.TalentFragment4"
+        android:label="fragment_talent4"
+        tools:layout="@layout/fragment_talent4" >
+        <action
+            android:id="@+id/action_talentFragment4_to_talentFragment3"
+            app:destination="@id/talentFragment3" />
+    </fragment>
+</navigation>

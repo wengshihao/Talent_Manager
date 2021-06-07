@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_talent_picture4" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="29dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_talent_picture5" />
+
+    <ImageView
+        android:id="@+id/headiv"
+        android:layout_width="131dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:srcCompat="@drawable/ic_talent_man1" />
+
+    <TextView
+        android:id="@+id/agetv"
+        android:layout_width="143dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="76dp"
+        android:text="年龄：29"
+        android:textColor="#7C7571"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/companytv"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="xxxx有限公司"
+        android:textColor="#7C7571"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="147dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="136dp"
+        android:text="姓名：刘先生"
+        android:textColor="#7C7571"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/sextv"
+        android:layout_width="148dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="108dp"
+        android:text="性别：男"
+        android:textColor="#7C7571"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/skilltv"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="48dp"
+        android:ellipsize="end"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:text="具备技能：擅长使用Android"
+        android:textColor="#7C7571"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatPlusFragment"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="377dp"
+                android:layout_height="798dp"
+                android:background="@drawable/ic_talent_picture9"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.488"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="119dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="448dp"
+                    android:layout_marginEnd="244dp"
+                    android:text="具备技能："
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="119dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="304dp"
+                    android:layout_marginEnd="244dp"
+                    android:text="绩效评价："
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/xinziedps"
+                    android:layout_width="242dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="260dp"
+                    android:background="@drawable/chatplus_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.905"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/gangweiedps"
+                    android:layout_width="242dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="208dp"
+                    android:background="@drawable/chatplus_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.883"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="119dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="260dp"
+                    android:layout_marginEnd="244dp"
+                    android:text="期望薪资："
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="67dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="208dp"
+                    android:layout_marginEnd="296dp"
+                    android:text="岗位："
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="144dp"
+                    android:text="姓名："
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="152dp"
+                    android:layout_height="163dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="28dp"
+                    android:src="@drawable/ic_talent_man1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/nameedps"
+                    android:layout_width="189dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="52dp"
+                    android:background="@drawable/chatplus_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.934"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/ageedps"
+                    android:layout_width="189dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="148dp"
+                    android:background="@drawable/chatplus_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.936"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="116dp"
+                    android:layout_marginEnd="140dp"
+                    android:text="年龄："
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/malecb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:layout_marginEnd="144dp"
+                    android:text="男"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/femalecb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="84dp"
+                    android:layout_marginEnd="52dp"
+                    android:text="女"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/pingjiaedps"
+                    android:layout_width="318dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="336dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/ic_talent_picture12"
+                    android:ems="10"
+                    android:gravity="center|top"
+                    android:inputType="textMultiLine"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/skilledps"
+                    android:layout_width="329dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="480dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/ic_talent_picture12"
+                    android:ems="10"
+                    android:gravity="center|top"
+                    android:inputType="textMultiLine"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/chatfabubtn"
+                    android:layout_width="179dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="664dp"
+                    android:layout_marginEnd="96dp"
+                    android:background="@drawable/ic_talent_picture13"
+                    android:text="确认发布"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

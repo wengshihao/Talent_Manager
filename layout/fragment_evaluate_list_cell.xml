@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/btn_bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="30dp"
+
+        app:cardElevation="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/evaluate_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/need"
+                android:text="任职时间："
+                android:textColor="#766F6B"
+
+
+                app:layout_constraintStart_toStartOf="@+id/evaluate_apartment"
+                app:layout_constraintTop_toBottomOf="@+id/evaluate_sex" />
+
+            <ImageView
+                android:id="@+id/eva_image"
+
+
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerInParent="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+
+                app:layout_constraintEnd_toStartOf="@+id/guideline5"
+                app:layout_constraintHorizontal_bias="0.613"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.496"
+                app:srcCompat="@drawable/ic__avatar1"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/evaluate_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/need"
+
+                android:text="姓名："
+                android:textColor="#766F6B"
+
+                app:layout_constraintStart_toStartOf="@+id/evaluate_sex"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="155dp" />
+
+            <TextView
+                android:id="@+id/evaluate_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/need"
+
+                android:text="性别："
+                android:textColor="#766F6B"
+
+                app:layout_constraintBottom_toBottomOf="@+id/eva_sex"
+                app:layout_constraintStart_toStartOf="@+id/evaluate_date" />
+
+            <TextView
+                android:id="@+id/eva_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/need"
+
+                android:text="TextView"
+                android:textColor="#766F6B"
+
+                app:layout_constraintBottom_toBottomOf="@+id/evaluate_name"
+                app:layout_constraintStart_toEndOf="@+id/evaluate_name"
+                app:layout_constraintTop_toTopOf="@+id/evaluate_name"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/eva_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+
+                android:layout_marginTop="8dp"
+
+                android:fontFamily="@font/need"
+                android:text="TextView"
+
+                android:textColor="#766F6B"
+                app:layout_constraintStart_toEndOf="@+id/evaluate_sex"
+                app:layout_constraintTop_toBottomOf="@+id/eva_name" />
+
+            <TextView
+                android:id="@+id/eva_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+
+                android:fontFamily="@font/need"
+                android:text="TextView"
+
+                android:textColor="#766F6B"
+                app:layout_constraintBottom_toBottomOf="@+id/evaluate_date"
+                app:layout_constraintStart_toEndOf="@+id/evaluate_date"
+                app:layout_constraintTop_toTopOf="@+id/evaluate_date"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/eva_apartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="5dp"
+
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/need"
+
+                android:text="TextView"
+                android:textColor="#766F6B"
+                app:layout_constraintBottom_toBottomOf="@+id/evaluate_apartment"
+                app:layout_constraintStart_toEndOf="@+id/evaluate_apartment"
+                app:layout_constraintTop_toTopOf="@+id/evaluate_apartment"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/evaluate_apartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/need"
+
+
+                android:text="任职部门："
+                android:textColor="#766F6B"
+
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toBottomOf="@+id/evaluate_date" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+
+
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/need"
+                android:text=". . ."
+                android:textColor="#766F6B"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eva_apartment" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
